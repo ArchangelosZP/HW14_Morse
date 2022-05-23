@@ -56,7 +56,7 @@ public class Main {
         } else {
 
             try {
-               if (ex2(sum)==true) {return true;};
+               if (ex2(sum)) {return true;};
             } catch (StackOverflowError  e) {
                 return false;
             }
